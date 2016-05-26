@@ -1,0 +1,101 @@
+::selection {
+	background: #000000;
+	/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	background: #000;
+	/* Gecko Browsers */
+}
+.container {
+	width: 19%;
+	height: 24%;
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.container:hover {
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+html,
+body {
+	height: 98%;
+	overflow: hidden;
+}
+.whole1 {
+
+	height: 100%;
+	text-align: center;
+}
+.whole2, .whole3, .whole4, .whole5, .whole6 {
+	display: none;
+	height: 100%;
+	text-align: center;
+}
+.containerx {
+	width: 80%;
+	height: 80%;
+	top: 50px;
+	left: 50px;
+	position: fixed;
+	font-family: 'Roboto Slab', serif;
+	color: white;
+	text-transform: uppercase;
+}
+.menu {
+	text-align: right;
+	font-family: 'Roboto Slab', serif;
+	color: #2980B9;
+	margin-right: 50px;
+	text-transform: uppercase;
+	font-size: 18px;
+
+}
+.mnux {
+	padding-left: 15px;
+	cursor: pointer;
+
+}
+
+a{
+text-decoration: none;
+	color: #444;
+}
+
+
+
+div.transbox {
+	top: -20px;
+	left: 0px;
+	width: 100%;
+	height: 120%;
+	z-index: 55;
+	position: fixed;
+	background-color: #000;
+	opacity: 0.8;
+	display: none;
+	filter: alpha(opacity=80);
+	/* For IE8 and earlier */
+}
+div.transbox p {
+	margin-top: 20%;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 38px;
+
+}
